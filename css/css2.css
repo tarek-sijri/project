@@ -1,0 +1,203 @@
+
+
+
+
+/*
+
+img [title="image 2"] // changes via attributes
+    element  [attribute=""]
+
+
+p:first-child {background: red;}
+
+
+p:first-line {color: aqua;} // just first line from text
+
+
+
+p:first-letter {font-size: xx-large; // just first letter from all the text
+font-weight: bold;}
+
+
+
+
+p ~ div {color : red;}// if p have div brothers {after} p , 
+                       changes on div only !
+
+p + div {color : aqua;}//if p have next element like div
+
+.one > p {color : red;} // p direct child from class one
+                           changes on p only !
+
+
+
+outline: 2px dotted green;} // likely at border
+
+.one {cursor:;} // pointer / help / ........many forms of
+
+.one::after
+{content: "hello world"; //content just with "after" or "before"
+color: blue;}
+
+
+
+position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10; //just whith position
+
+
+h1,span,div{color: red;}
+
+
+float: left;
+clear: both;
+
+
+position: absolute; // don't save earia and out their workflow // top right left bottom :   start from body
+position:relative; // save their earia / top right left bottom :   start from his place
+position:fixed;
+  top: 10px;
+  right: 10px;
+
+span {display: block/ none/inline; /none: don't save their place
+      visibility: hidden;} /save their place 
+
+
+height: 300px;
+border: 5px dotted red;
+overflow: scroll;
+overflow: hidden;
+overflow-x , overflow-y: hidden/scroll/visibility;
+float: none;
+
+
+
+button {
+  color: red;
+  background: black;
+  min-width: 50px;
+  max-width: 200px;
+ 
+
+
+div {color: black;
+background: red;
+margin: 10px 20px 30px 40px ;
+margin: auto;
+font-weight: bold;
+padding: 10px;
+}
+  
+
+p 
+{color : red ; 
+font-size: 25px ;
+font-weight: bold;
+border: 3px double black;
+border-top: 3px dotted red;
+border-bottom-color: blueviolet;
+border-top-width: 6px;
+border-right-style: dotted;
+padding: 5px;
+width: 50%;
+}
+ 
+p 
+{color : red ; 
+font-size: 30px ;
+font-weight: bold;
+}
+
+
+div { background-attachment: scroll;
+    height: 500px;
+    width: 500;
+  background-color:rgba(255, 0, 0,);
+  background-image: url(../tarek.jpg);
+  background-repeat: no-repeat;
+  border: 1px solid red ;
+background-position: center ; }
+
+
+div:hover{
+   
+  text-decoration: underline;
+
+
+
+
+}
+
+
+  p {
+    font-family:monospace ;
+  
+  line-height: 50px;
+  font-style: italic;
+  font-size:32px;
+  font-weight:bold;
+ 
+}
+a {
+color: red;
+font-size: large;
+
+
+}
+a:hover {
+font-weight: lighter;
+}
+
+
+a:active { 
+  color: aqua;
+  font-weight:bolder;
+}
+
+
+ ul {
+list-style-type:disc;
+list-style-position:outside;
+
+
+
+ }
+ ul li {
+border: 1px;
+margin: 1px;
+padding: 1px;
+
+ }
+  
+
+
+div{
+  
+  margin: 10 px solid black;
+  padding: 10px;
+  background: black;
+  color: white;
+  direction: ltr;
+  line-height: 50px; 
+  text-align: left; 
+  margin: 10px ; 
+  text-decoration:normal;
+  text-indent: 20%;
+  text-transform:capitalize;
+  white-space: normal; 
+  word-spacing: 1px; 
+  letter-spacing: 20px;
+}
+
+
+span.low{text-transform: lowercase;}
+span.cap{text-transform:capitalize;} 
+ span.upper{text-transform: uppercase;}
+
+ */
+
+
+
+
+

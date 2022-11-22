@@ -1,0 +1,397 @@
+*{
+   box-sizing: border-box;
+}
+.parent {
+   width: 600px;
+   margin: 40px auto;
+   background-color: #Eee;
+   padding: 20px;
+}
+.parent input{
+   border: none;
+   padding: 15px;
+   margin-bottom: 15px;
+   width: 100%;
+}
+.parent input:focus{
+   outline: none;
+}
+.parent .buttons {
+   display: flex;
+   justify-content: space-between;
+}
+.parent .buttons span {
+   background-color: #009688;
+   text-align: center;
+   color: #fff;
+   padding: 6px 10px;
+   border-radius:  4px;
+   cursor: pointer;
+}
+.parent .results{
+   background-color: #fff;
+   padding: 20px;
+   margin-top: 15px;
+   border: 2px dashed #eee;
+   text-align: center;
+}
+.parent .results span span{
+font-weight: bold;
+color: #009688;
+}
+/* 
+@media (max-width: 500px) or @media (max-width:200px) and (min-width:50px)
+{
+div{
+ background-color: black;
+}  
+}
+
+// when width is 500px , the chenges apply
+
+
+
+
+@font-face {
+
+font-family: ;
+src: url('......    .ttf')
+, url('......    .otf')
+, url('......    .woff')
+, url('......    .woff2')
+, url('......    .svg') 
+, url('......    .eot');
+
+}
+
+
+
+
+
+div:nth-child(-n+4) / or/ nth- of-tpe(-n+4) {
+   .....}
+// the div number 4 and all before his will apply them change
+
+
+
+div:nth-child(n+4) {
+   .....}
+// the div number 4 and all next his will apply them change
+
+
+div:nth-child(even or odd)/:nth-of-type( even or odd)
+{....}
+
+
+
+
+
+::selection {
+   ... for text cursor
+}
+
+
+
+
+
+p: only-child {
+....
+
+
+}
+p: only-of-type {
+
+   ...
+}
+
+
+
+   section :not(div) {
+
+        color :red;
+   }
+   // everuthing in section  not div will painting red
+
+
+
+
+   :cheked {
+      ....
+
+   }
+
+
+
+
+[class^="ahmad"] {....}
+// any class start with ahmad will apply the attribute of them
+
+
+[class$="ahmad"] {....}
+//any class end with ahmad will apply the attribute of them
+
+
+
+
+
+animation-timing-function : ease/ease-in/ease-out/ease-in-out/linear
+
+
+animation-play-state; running/paused
+
+
+animation-fill-mode : forwards;
+*1.// for stop the animation in the end level
+
+                    : backwords;
+*2.// the attribute will load in the 0% before animation start
+                    : both;
+// *1 and *2
+
+
+animation-iteration : 3;
+// for repeat
+
+
+
+animation-direection: reverse; //opposite
+                       alternate;
+                       alternate-reverse;
+// for sorting
+
+
+
+animation-delay: 4s;
+// the fist time before animation start
+
+animation-duration: 3s;
+
+
+
+
+
+@keyframes coloring {
+from {}
+to{}
+//
+25% {}
+50% {}
+75% {}
+100% {}
+// with      animation: coloring 3s 4 ease-in-out;  in css
+
+}
+
+
+
+colums: column-width / column-count
+//shorthand
+
+column-span: all;
+// for make the text is block
+
+
+column-width: 100px;
+
+
+
+column-rule: 5px groove blue;
+// put border in spaces between column
+
+
+column-count : 2;
+
+column-gap: 10px;
+// the space between column
+
+
+
+transition-timing-function: steps(3);
+
+
+
+transition-delay: 2s;
+// the time before start transition;
+
+
+
+transition: all .5s  ease
+                     linear
+                     ease-in
+                     ease-out
+                     ease-in-out
+
+
+transition : all 1s/width 5s /background-color 3s//...
+
+
+
+flex : 0 1 auto ;
+// flex-grow - flex-shrink / flex-basis
+
+
+flex-basis: auto / 200px ;
+// for streetching the box adaptinh the text in there
+
+
+
+flex-shrink : 1/default , 0,2,2,3,4 ...
+
+
+flex-grow: 0 / default, 2 ,3,4,...
+// for stretching the box;
+
+
+order: 1 // for sorting
+
+
+align-items:     flex-start 
+                 flex-end
+                 center
+                 baseline
+//respect width and height
+
+
+
+align-content:   flex-start 
+                 flex-end
+                 center
+                 space-between
+                 space-around
+// without respect width and height / for the y
+and in the vertical , don't put space between divs
+
+justify-content: flex-start 
+                 flex-end
+                 center
+                 space-between
+                 space-around
+// without respect width and height / for the x
+
+
+flex-flow: row no-wrap;
+           column wrap;
+           row-reverse wrap;
+// short code of flex-direction and flex-wrap
+
+
+
+flex-wrap: wrap / no-wrap / wrap-reverse; // if nesessery
+
+
+flex-direction: row / column ;
+                row-reverse // to change sort the divs in row obbosite;
+                column-reverse // to change sort the divs in column obbosite;
+               
+
+
+display: flex // to put text under the box;
+        inline-flex // to put text in the near;
+
+
+opacity: 0.5 ; // from 0 to 1
+
+
+resize: horizontal / vertical / both ;
+
+
+background-origin:content-box; // image from padding
+                  border-box; // image from border
+                  content-box; image just for content
+
+background-clip:padding-box; // the color from padding
+                border-box; // coloring all the shape
+                content-box; // color with just content
+
+background-size: 100% 100% / contain / cover 
+
+
+backface-visibility: hidden // for show text in the back
+
+
+
+
+transform-style: preserve-3d;// for turning on 3d only
+                 flat ; // for turning on x and y
+
+
+transform-origin:50% 90% // changing the movement range of the shape
+                 top left
+
+
+perspective: 100px 
+perspective-origin : left/right/50%/centre/bottom/top
+
+
+
+
+div{
+    transform: rotate(deg);
+               rotateX(deg);
+               rotateY(deg);
+               rotateZ(deg);
+               rotate3d(x,y,z)
+
+
+    transform: scale( 2 width , 2 height ) //scale(width) [value of width and height]
+               scale(x);
+               scale(y);
+               scale(z); z will active with /transform:perspective(px) in body ! , with another proparties such as translate or rotate
+                
+
+
+    transform: translate( 10px x, 10px y) // if x have value and y no ,, then the y is 0
+               translate(x);
+               translate(y);
+               transalte(z);
+               translate3d(px x,px y,px z) // z will active with /perspective:(px) in body !
+
+
+transform: skew(10deg x, 10deg  y) //if x have value and y no ,, then 
+transform: skewX(20deg);
+transform: skewY(20deg);the y is 0
+
+
+transform:matrix(scaleX , skewY , skewX , scaleY , translateX , TranslateY)
+}
+
+
+
+word-wrap:break-word ;
+
+
+
+text-overflow: ellipsis; // put [..] last line
+
+
+text-shadow: 10px 10px 25px red , // just three 
+            -10px -10px 25px purple;
+
+
+
+    border-radius: 10px 120px 10px 120px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right:10px;
+    border-bottom-left:10px;
+    
+    
+    box-shadow: [10px 10px];
+                //horizontal / vretical /black default
+    box-shadow: 10px 10px [50px] green;
+                // blur
+    box-shadow: 10px 10px 50px [40px] green;
+                //spread
+    box-shadow: 10px 10px 50px 40px [inset] green;
+                // the shadow is in the box
+    box-shadow: 10px 10px 5px  red,
+               -10px -10px 5px  blue;
+                //for more shadow
+
+
+    *{box-sizing: border-box};
+                // to put element near the element
+
+
+    
+    */
